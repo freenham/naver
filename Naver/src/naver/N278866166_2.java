@@ -28,6 +28,7 @@ public class N278866166_2 {
 	}
 
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		Scanner s = new Scanner(System.in);
 		N278866166_2 n = new N278866166_2(s.nextInt(), s.nextInt());
 		System.out.println(n.add());

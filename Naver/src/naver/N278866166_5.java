@@ -4,8 +4,6 @@ public class N278866166_5 {
 	private String name;
 	private int times;
 	private int hit;
-	private double batting;
-	
 	public N278866166_5() {
 		super();
 	}
