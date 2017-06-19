@@ -6,7 +6,6 @@ public class N278866166 {
 	Scanner s = new Scanner(System.in);
 
 	public static void main(String[] args) {
-
 		double[][] student = new double[3][6];
 		student[0][0] = 1;
 		student[0][1] = 90;
