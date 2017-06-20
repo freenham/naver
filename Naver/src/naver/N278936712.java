@@ -29,8 +29,14 @@ public class N278936712 {
 
 		for (int i = 0; i < student.length; i++) {
 			for (int j = 0; j < student[0].length; j++) {
-				if (j == 0)
-					Ans += (char) (65 + i) + "\t";
+				if (j == 0 && i==0)
+					Ans += "가\t";
+				if (j == 0 && i==1)
+					Ans += "나\t";
+				if (j == 0 && i==2)
+					Ans += "다\t";
+				if (j == 0 && i==3)
+					Ans += "라\t";
 				if (j < 3) {
 					student[i][3] += student[i][j] / 3;
 					Ans += ((int) student[i][j] + "\t");
