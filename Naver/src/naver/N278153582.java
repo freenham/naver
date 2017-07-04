@@ -14,5 +14,6 @@ public class N278153582 {
 		String a3 = new String("가나다");
 		System.out.println(a1=a3);
 		
+		
 	}
 }
