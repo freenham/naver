@@ -4,7 +4,7 @@ public class N280031025 {
 
 	public static int searchArray(int[] array, int a) {
 		
-
+		
 		try {
 			for (int i = 0; i < array.length; i++) {
 				if (array[i] == a)
@@ -20,7 +20,6 @@ public class N280031025 {
 	}
 
 	public static void main(String[] args) {
-
 		int[] a = new int[] { 1, 2, 3, 4, 5 };
 		int b = searchArray(a, 11);
 //		System.out.println(b);
